@@ -27,7 +27,7 @@ define Package/hplip
   CATEGORY:=Utilities
   TITLE:=HP Linux Imaging and Printing
   URL:=http://sourceforge.net/projects/hplip/
-  DEPENDS+=+libjpeg +libsane +cups +libusb-1.0
+  DEPENDS+=+libjpeg +libsane +cups +libcupsimage +libusb-1.0
 endef
 
 define Package/hplip/description
